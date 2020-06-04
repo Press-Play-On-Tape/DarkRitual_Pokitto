@@ -1,4 +1,4 @@
-<a name="top"></a><img src="/Distributable/DarkRitual_POPBanner.png" data-canonical-src="/Distributable/DarkRitual_POPBanner.png" />
+<a name="top"></a><img src="/distributable/DarkRitual_POPBanner.png" data-canonical-src="/distributable/DarkRitual_POPBanner.png" />
 
 Explore the dark underworld to find all the sacred runes.  Its your only way to save your fellow cultists and yourself.
 
