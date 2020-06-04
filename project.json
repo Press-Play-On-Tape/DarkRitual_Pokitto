@@ -12847,6 +12847,21 @@
 		},
 		"\\distributable\\music.zip~RF17d4e22.TMP": {
 			"sdcard": false
+		},
+		"\\New Text Document.txt": {
+			"sdcard": false
+		},
+		"\\readme.md": {
+			"sdcard": false
+		},
+		"\\DarkRitual_Pokitto.bin.1.gif": {
+			"sdcard": false
+		},
+		"\\distributable\\music.zip~RF5722e66.TMP": {
+			"sdcard": false
+		},
+		"\\distributable\\DakrRitual_V100.zip": {
+			"sdcard": false
 		}
 	},
 	"BUILDFlags": {

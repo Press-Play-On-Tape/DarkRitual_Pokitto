@@ -30,7 +30,7 @@
 #define HEALTH_DEC_SPIKE_FIRE           2
 #define HEALTH_DEC_CHEST                5
 #define HEALTH_DEC_BOSS                 10
-#define HEALTH_DEC_CYCLOP               10
+#define HEALTH_DEC_CYCLOP               8
 
 // Enemy Starting Health ..
 
@@ -171,8 +171,8 @@
 #define LAUNCH_SKELETON_DELAY_MAX       100
 #define LAUNCH_SPIDER_DELAY_MIN         60
 #define LAUNCH_SPIDER_DELAY_MAX         100
-#define LAUNCH_CYCLOPS_DELAY_MIN        100
-#define LAUNCH_CYCLOPS_DELAY_MAX        150
+#define LAUNCH_CYCLOPS_DELAY_MIN        70
+#define LAUNCH_CYCLOPS_DELAY_MAX        120
 
 
 

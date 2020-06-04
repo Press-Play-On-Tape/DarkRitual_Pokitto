@@ -16,6 +16,7 @@ void Game::updateObjects(bool ignorePlayerDamage) {
     if (this->launchSkeletonDelay > 0)      this->launchSkeletonDelay--;
     if (this->launchSpiderDelay > 0)        this->launchSpiderDelay--;
     if (this->launchCyclopsDelay > 0)       this->launchCyclopsDelay--;
+    if (this->enemyBulletDelay > 0)         this->enemyBulletDelay--;
 
     if (this->changeStateDelay > 0) {
 
