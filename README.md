@@ -2,19 +2,15 @@
 
 Explore the dark underworld to find all the sacred runes.  Its your only way to save your fellow cultists and yourself.
 
-<img src="/distributable/Pic1.png" data-canonical-src="/distributable/Pic1.png" />
-<img src="/distributable/Pic2.png" data-canonical-src="/distributable/Pic2.png" />
-<img src="/distributable/Pic3.png" data-canonical-src="/distributable/Pic3.png" />
-<img src="/distributable/Pic4.png" data-canonical-src="/distributable/Pic4.png" />
-<img src="/distributable/Pic5.png" data-canonical-src="/distributable/Pic5.png" />
-<img src="/distributable/Pic6.png" data-canonical-src="/distributable/Pic6.png" />
-<img src="/distributable/Pic7.png" data-canonical-src="/distributable/Pic7.png" />
-<img src="/distributable/Pic8.png" data-canonical-src="/distributable/Pic8.png" />
+<img src="/distributable/Pic1.png" data-canonical-src="/distributable/Pic1.png" />&nbsp;<img src="/distributable/Pic2.png" data-canonical-src="/distributable/Pic2.png" /><br />
+<img src="/distributable/Pic3.png" data-canonical-src="/distributable/Pic3.png" />&nbsp;<img src="/distributable/Pic4.png" data-canonical-src="/distributable/Pic4.png" /><br />
+<img src="/distributable/Pic5.png" data-canonical-src="/distributable/Pic5.png" />&nbsp;<img src="/distributable/Pic6.png" data-canonical-src="/distributable/Pic6.png" /><br />
+<img src="/distributable/Pic7.png" data-canonical-src="/distributable/Pic7.png" />&nbsp;<img src="/distributable/Pic8.png" data-canonical-src="/distributable/Pic8.png" /><br />
 <img src="/distributable/Pic9.png" data-canonical-src="/distributable/Pic9.png" />
 
-Graphics&nbsp;&nbsp;&nbsp;&nbsp;@vampirics
-Code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@filmote
-Music&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@raphaelespindola
+Graphics&nbsp;&nbsp;&nbsp;&nbsp;@vampirics<br />
+Code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@filmote<br />
+Music&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@raphaelespindola<br />
 
 ### Installation Instructions
 
