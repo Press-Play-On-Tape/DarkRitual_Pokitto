@@ -8,8 +8,8 @@ Explore the dark underworld to find all the sacred runes.  Its your only way to 
 <img src="/distributable/Pic7.png" data-canonical-src="/distributable/Pic7.png" />&nbsp;<img src="/distributable/Pic8.png" data-canonical-src="/distributable/Pic8.png" /><br />
 <img src="/distributable/Pic9.png" data-canonical-src="/distributable/Pic9.png" />
 
-Graphics&nbsp;&nbsp;&nbsp;&nbsp;@vampirics<br />
-Code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@filmote<br />
+Graphics&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@vampirics<br />
+Code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@filmote<br />
 Music&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@raphaelespindola<br />
 
 ### Installation Instructions
