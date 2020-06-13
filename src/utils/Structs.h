@@ -138,6 +138,7 @@ struct PlayerStatus {
     uint8_t coins;
     uint8_t coinsOverall;
     uint8_t kills;
+    uint8_t cultists;
     bool moving;
     uint8_t frame;
     Object weapon = Object::FireBall;

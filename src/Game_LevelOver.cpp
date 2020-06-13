@@ -44,6 +44,16 @@ void Game::win_Init() {
     
     this->gameState = GameState::WinState;
 
+
+    // Start win theme ..
+
+    this->theme = SoundEffect::Win;
+
+    if (mainThemeFile.openRO("music/darkritD.raw")) {
+        auto& music = Audio::play<0>(mainThemeFile);
+        music.setLoop(true);
+    }
+
 }
 
 void Game::win() {
@@ -205,12 +215,14 @@ void Game::win() {
 
         case WinScreenMode::Score:
             {
-                this->renderEnvironment(!this->map.isBossLevel() && !this->map.isAltarLevel(), 0, 0);
-                this->renderHud();
-                this->renderLevelSplash();
+                // this->renderEnvironment(!this->map.isBossLevel() && !this->map.isAltarLevel(), 0, 0);
+                // this->renderHud();
+                // this->renderLevelSplash();
     
-                uint32_t pts = this->printLevelSummary(20, this->map.getTimer()/10);
-                
+                // uint32_t pts = this->printLevelSummary(20, this->map.getTimer()/10);
+
+                uint32_t pts = this->printLevelSummary(34, this->map.getTimer()/10);
+
                 if ((PC::frameCount % 800 == 0) || (PC::buttons.pressed(BTN_A))) {  
     
                     this->highScoreOrNot(pts);
@@ -229,13 +241,15 @@ void Game::win() {
 
 void Game::endOfLevel() {
 
-    PD::setColor(15);
-    this->renderEnvironment(!this->map.isBossLevel() && !this->map.isAltarLevel(), 0, 0);
-    this->renderHud();
-    this->renderLevelSplash();
+    // PD::setColor(15);
+    // this->renderEnvironment(!this->map.isBossLevel() && !this->map.isAltarLevel(), 0, 0);
+    // this->renderHud();
+    // this->renderLevelSplash();
 
-    uint32_t pts = this->printLevelSummary(20, this->map.getTimer()/10);
-    
+    // uint32_t pts = this->printLevelSummary(20, this->map.getTimer()/10);
+
+    uint32_t pts = this->printLevelSummary(34, this->map.getTimer()/10);
+
     if ((PC::frameCount % 800 == 0) || (PC::buttons.pressed(BTN_A))) {  
 
         if (this->map.getRandomLevel()) { this->map.setRandomLevelIndex(this->map.getRandomLevelIndex() + 1); }

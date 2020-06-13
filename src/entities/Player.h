@@ -24,6 +24,7 @@ class Player {
         uint8_t getCoins();
         uint8_t getCoinsOverall();
         uint8_t getKills();
+        uint8_t getCultists();
         uint8_t getFrame();
         bool getMoving();
         Object getWeapon();
@@ -38,6 +39,7 @@ class Player {
         void setCoins(uint8_t coins);
         void setCoinsOverall(uint8_t coins);
         void setKills(uint8_t kills);
+        void setCultists(uint8_t cultists);
         void setFrame(uint8_t frame);
         void setMoving(bool moving);
         void setWeapon(Object weapon);

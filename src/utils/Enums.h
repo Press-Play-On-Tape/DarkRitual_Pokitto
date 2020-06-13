@@ -20,6 +20,7 @@ enum class SoundEffect : uint8_t {
     MainTheme,
     BossTheme,
     ShopTheme,
+    Win
 };
 
 enum class GameMode : uint8_t {
@@ -282,7 +283,7 @@ enum MapTiles {
     SavePost = 97,
     CornerFill = 98,
     ThreeSkulls = 99,
-    Shadow = 99,
+    Shadow = 100,
 };
 
 enum class ShopMessage : uint8_t {

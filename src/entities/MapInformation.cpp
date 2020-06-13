@@ -314,6 +314,7 @@ WalkType MapInformation::isWalkable(uint16_t x, uint16_t y, Direction direction,
         case MapTiles::SpearDoorBOTOpen:
         case MapTiles::WormHole_F0:
         case MapTiles::ThreeSkulls:
+        case MapTiles::Shadow:
             walk = WalkType::Normal;
             break;
 
@@ -862,6 +863,7 @@ WalkType MapInformation::isWalkable(uint16_t x, uint16_t y, Direction direction,
             case MapTiles::SpearDoorBOTOpen:
             case MapTiles::WormHole_F0:
             case MapTiles::ThreeSkulls:
+            case MapTiles::Shadow:
                 break;
 
             case MapTiles::StraightTOP:
