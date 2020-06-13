@@ -161,7 +161,7 @@
 
 #define TIMER_STEP                      24
 #define LEVEL_START_DELAY               60
-#define COOKIE_INITIALISED              25
+#define COOKIE_INITIALISED              26
 #define SHOP_PURCHASE_DELAY             48
 
 #define ENEMY_BULLET_DELAY_MIN          20
