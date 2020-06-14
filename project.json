@@ -13723,6 +13723,36 @@
 		},
 		"/distributable/DarkRitual_V101.zip": {
 			"sdcard": false
+		},
+		"\\DarkRitual_V101.bin": {
+			"sdcard": false
+		},
+		"\\README.md": {
+			"sdcard": false
+		},
+		"\\distributable\\DarkRitual_V101.zip": {
+			"sdcard": false
+		},
+		"\\distributable\\DarkRitual_V101.bin": {
+			"sdcard": false
+		},
+		"\\distributable\\DarkRitual_V101.pop": {
+			"sdcard": false
+		},
+		"\\distributable\\music\\darkritD.raw": {
+			"sdcard": false
+		},
+		"\\src\\sounds\\darkritD - EOG.raw": {
+			"sdcard": false
+		},
+		"\\src\\sounds\\gamerpghorrorEOG.mp3": {
+			"sdcard": false
+		},
+		"\\distributable\\music.zip~RF39220d68.TMP": {
+			"sdcard": false
+		},
+		"\\distributable\\DakrRitual_V101.zip": {
+			"sdcard": false
 		}
 	},
 	"BUILDFlags": {
