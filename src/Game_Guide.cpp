@@ -427,6 +427,7 @@ void Game::showGuide() {
 
         PD::setColor(0, 0);
         gameState = GameState::Game; 
+        this->player.setCultists(this->player.getCultists() + 1);
         this->guide->setPuffIndex(20);
 
     }

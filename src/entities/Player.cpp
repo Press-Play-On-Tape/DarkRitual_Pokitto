@@ -20,6 +20,7 @@ void Player::reset() {
     this->playerStatus.coins = 0;
     this->playerStatus.coinsOverall = 0;
     this->playerStatus.kills = 0;
+    this->playerStatus.cultists = 0;
     this->playerStatus.moving = false;
     this->playerStatus.frame = 0;
     this->playerStatus.weapon = Object::FireBall;
@@ -41,6 +42,7 @@ void Player::initLevel(uint16_t x, uint16_t y) {
     this->playerStatus.direction = Direction::Down;
     this->playerStatus.coins = 0;
     this->playerStatus.kills = 0;
+    this->playerStatus.cultists = 0;
     this->playerStatus.health = (this->playerStatus.health <= 0 ? 100 : this->playerStatus.health);
     this->playerStatus.moving = false;
     
@@ -84,6 +86,10 @@ uint8_t Player::getCoinsOverall() {
 
 uint8_t Player::getKills() { 
     return this->playerStatus.kills; 
+}
+
+uint8_t Player::getCultists() { 
+    return this->playerStatus.cultists; 
 }
 
 uint8_t Player::getAltarPieces() { 
@@ -151,6 +157,10 @@ void Player::setCoinsOverall(uint8_t coins) {
 
 void Player::setKills(uint8_t kills) { 
     this->playerStatus.kills = kills; 
+}
+
+void Player::setCultists(uint8_t cultists) { 
+    this->playerStatus.cultists = cultists; 
 }
 
 void Player::setFrame(uint8_t frame) { 
