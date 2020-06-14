@@ -1,8 +1,9 @@
-![KONGII_GameBanner|690x253](upload://2fw7yw6GTAYRqct2WvrMv5qirvQ.png) 
+<img src="/distributable/DarkRitual_POPBanner.png" data-canonical-src="/distributable/DarkRitual_POPBanner.png" />
 
 Explore the dark underworld to find all the sacred runes.  Its your only way to save your fellow cultists and yourself .
 
-![Play|220x176](upload://bvuWT1yjUlMGj0ppJtJyEuk9mQp.gif) &nbsp;&nbsp;&nbsp;&nbsp; ![Play2|220x176](upload://bTkArnaF4mdvHMmHVU3V05MdL7f.gif) 
+<img src="/distributable/Pic1.png" data-canonical-src="/distributable/Pic1.png" />
+<img src="/distributable/Pic2.png" data-canonical-src="/distributable/Pic2.png" />
 
 Graphics&nbsp;&nbsp;&nbsp;&nbsp;@vampirics
 Code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@filmote
