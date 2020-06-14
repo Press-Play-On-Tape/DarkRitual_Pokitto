@@ -10,16 +10,16 @@ void Game::death() {
     this->renderEnvironment(!this->map.isBossLevel() && !this->map.isAltarLevel(), 0, 0);
     this->renderHud();
 
-    // PD::setColor(15);
-    // PD::fillScreen(15);
-    // PD::drawBitmap(0, 0, Images::LevelSplash_UpperLeft);
-    // PD::drawBitmap(0, 16, Images::LevelSplash_Left);
-    // PD::drawBitmap(10, 0, Images::GameOver);
-    // PD::drawBitmap(100, 0, Images::LevelSplash_UpperRight);
-    // PD::drawBitmap(100, 16, Images::LevelSplash_Right);
-    // PD::drawBitmap(10, 78, Images::LevelSplash_Bottom);
-    // PD::setColor(4, 15);
-    // PD::setCursor(14,26);
+    PD::setColor(15);
+    PD::fillScreen(15);
+    PD::drawBitmap(0, 0, Images::LevelSplash_UpperLeft);
+    PD::drawBitmap(0, 16, Images::LevelSplash_Left);
+    PD::drawBitmap(10, 0, Images::GameOver);
+    PD::drawBitmap(100, 0, Images::LevelSplash_UpperRight);
+    PD::drawBitmap(100, 16, Images::LevelSplash_Right);
+    PD::drawBitmap(10, 78, Images::LevelSplash_Bottom);
+    PD::setColor(4, 15);
+    PD::setCursor(14,26);
 
     uint32_t pts = this->printLevelSummary(34, 0);
 
@@ -40,15 +40,6 @@ uint32_t Game::printLevelSummary(uint8_t yOffset, uint16_t timer) {
     uint32_t killp = player.getKills() * 10;
     uint32_t cult = player.getCultists() * 20;
     uint32_t pts = padd + killp + + cult + timer;
-
-    PD::setColor(15);
-    PD::fillScreen(15);
-    PD::drawBitmap(0, 0, Images::LevelSplash_UpperLeft);
-    PD::drawBitmap(0, 16, Images::LevelSplash_Left);
-    PD::drawBitmap(10, 0, Images::GameOver);
-    PD::drawBitmap(100, 0, Images::LevelSplash_UpperRight);
-    PD::drawBitmap(100, 16, Images::LevelSplash_Right);
-    PD::drawBitmap(10, 78, Images::LevelSplash_Bottom);
 
     PD::setColor(4, 14);
     PD::setCursor(9, yOffset);

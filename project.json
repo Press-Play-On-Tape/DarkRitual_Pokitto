@@ -12862,6 +12862,867 @@
 		},
 		"\\distributable\\DakrRitual_V100.zip": {
 			"sdcard": false
+		},
+		"/DarkRitual_Pokitto.eeprom": {
+			"sdcard": false
+		},
+		"/DarkRitual_Pokitto.elf": {
+			"sdcard": false
+		},
+		"/DarkRitual_V100.bin": {
+			"sdcard": false
+		},
+		"/distributable": {
+			"sdcard": false
+		},
+		"/readme.md": {
+			"sdcard": false
+		},
+		"/distributable/DarkRitual_Icon_24x24.h": {
+			"sdcard": false
+		},
+		"/distributable/Blurb.txt": {
+			"sdcard": false
+		},
+		"/distributable/DarkRitual_Icon_36x36.h": {
+			"sdcard": false
+		},
+		"/distributable/DarkRitual_Icon_36x36.png": {
+			"sdcard": false
+		},
+		"/distributable/DarkRitual_Icon_24x24.png": {
+			"sdcard": false
+		},
+		"/distributable/DarkRitual_POPBanner.png": {
+			"sdcard": false
+		},
+		"/distributable/DarkRitual_V100.bin": {
+			"sdcard": false
+		},
+		"/distributable/DarkRitual_POPBanner.h": {
+			"sdcard": false
+		},
+		"/distributable/DarkRitual_V100.pop": {
+			"sdcard": false
+		},
+		"/distributable/DarkRitual_V100.zip": {
+			"sdcard": false
+		},
+		"/distributable/Pic1.h": {
+			"sdcard": false
+		},
+		"/distributable/Pic1.png": {
+			"sdcard": false
+		},
+		"/distributable/Pic2.h": {
+			"sdcard": false
+		},
+		"/distributable/Pic2.png": {
+			"sdcard": false
+		},
+		"/distributable/Pic3.h": {
+			"sdcard": false
+		},
+		"/distributable/Pic3.png": {
+			"sdcard": false
+		},
+		"/distributable/Pic4.h": {
+			"sdcard": false
+		},
+		"/distributable/Pic4.png": {
+			"sdcard": false
+		},
+		"/distributable/Pic5.png": {
+			"sdcard": false
+		},
+		"/distributable/Pic6.h": {
+			"sdcard": false
+		},
+		"/distributable/Pic5.h": {
+			"sdcard": false
+		},
+		"/distributable/Pic6.png": {
+			"sdcard": false
+		},
+		"/distributable/Pic7.h": {
+			"sdcard": false
+		},
+		"/distributable/Pic7.png": {
+			"sdcard": false
+		},
+		"/distributable/Pic8.h": {
+			"sdcard": false
+		},
+		"/distributable/Pic8.png": {
+			"sdcard": false
+		},
+		"/distributable/Pic9.h": {
+			"sdcard": false
+		},
+		"/distributable/music": {
+			"sdcard": false
+		},
+		"/distributable/Pic9.png": {
+			"sdcard": false
+		},
+		"/src/Game_GameSaved.cpp": {
+			"sdcard": false
+		},
+		"/distributable/music/darkrit1.raw": {
+			"sdcard": false
+		},
+		"/distributable/music/darkrit2.raw": {
+			"sdcard": false
+		},
+		"/distributable/music/darkrit3.raw": {
+			"sdcard": false
+		},
+		"/distributable/music/darkrit5.raw": {
+			"sdcard": false
+		},
+		"/distributable/music/darkrit4.raw": {
+			"sdcard": false
+		},
+		"/distributable/music/darkrit6.raw": {
+			"sdcard": false
+		},
+		"/distributable/music/darkrit7.raw": {
+			"sdcard": false
+		},
+		"/distributable/music/darkrit8.raw": {
+			"sdcard": false
+		},
+		"/distributable/music/darkrit9.raw": {
+			"sdcard": false
+		},
+		"/distributable/music/darkritA.raw": {
+			"sdcard": false
+		},
+		"/distributable/music/darkritB.raw": {
+			"sdcard": false
+		},
+		"/distributable/music/darkritC.raw": {
+			"sdcard": false
+		},
+		"/distributable/music/darkritD.raw": {
+			"sdcard": false
+		},
+		"/src/sounds/BarrelExploding.mp3": {
+			"sdcard": false
+		},
+		"/src/sounds/darkritB - Barrel Exploding.raw": {
+			"sdcard": false
+		},
+		"/src/sounds/darkritA - Shop.raw": {
+			"sdcard": false
+		},
+		"/src/sounds/darkritC - Boss.raw": {
+			"sdcard": false
+		},
+		"/src/sounds/darkritD - EOG.raw": {
+			"sdcard": false
+		},
+		"/src/sounds/gamehorrorboss2.mp3": {
+			"sdcard": false
+		},
+		"/src/sounds/gamerpghorrorEOG.mp3": {
+			"sdcard": false
+		},
+		"/src/sounds/gamerpghorrorshop.mp3": {
+			"sdcard": false
+		},
+		"/src/utils/GameCookieHighScores.h": {
+			"sdcard": false
+		},
+		"/src/utils/GameCookieSaveGame.h": {
+			"sdcard": false
+		},
+		"/src/images/background/Tile_100.h": {
+			"sdcard": false
+		},
+		"/src/images/background/Tile_100.png": {
+			"sdcard": false
+		},
+		"/src/images/background/Tile_99.png": {
+			"sdcard": false
+		},
+		"/src/images/background/Tile_99.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss": {
+			"sdcard": false
+		},
+		"/src/images/background/orig": {
+			"sdcard": false
+		},
+		"/src/images/sprites/Bread.h": {
+			"sdcard": false
+		},
+		"/src/images/sprites/Bread.png": {
+			"sdcard": false
+		},
+		"/src/images/title/ArrowDown_Grey.h": {
+			"sdcard": false
+		},
+		"/src/images/title/ArrowDown_Grey.png": {
+			"sdcard": false
+		},
+		"/src/images/title/ArrowUp_Grey.h": {
+			"sdcard": false
+		},
+		"/src/images/title/ArrowUp_Grey.png": {
+			"sdcard": false
+		},
+		"/src/images/title/BorderTOP.png": {
+			"sdcard": false
+		},
+		"/src/images/title/Player - Copy.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/large/Large_Rune_00.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/large/Large_Rune_00.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/large/Large_Rune_01.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/large/Large_Rune_01.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/large/Large_Rune_02.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/large/Large_Rune_02.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/large/Large_Rune_03.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/large/Large_Rune_05.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/large/Large_Rune_04.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/large/Large_Rune_03.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/large/Large_Rune_05.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/large/Large_Rune_04.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Grey_00.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Grey_00.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Grey_01.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Grey_02.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Grey_02.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Grey_01.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Grey_03.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Grey_03.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Grey_04.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Grey_04.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Grey_05.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Red_00.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Grey_05.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Red_00.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Red_01.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Red_01.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Red_02.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Red_02.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Red_03.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Red_04.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Red_04.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Red_05.h": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Red_03.png": {
+			"sdcard": false
+		},
+		"/src/images/altar/small/Rune_Red_05.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/CornerFillLL_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/CornerFillLL_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/CornerFillLR_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/CornerFillLR_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/CornerFillTL_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/CornerFillTL_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/CornerFillTR_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/CornerFillTR_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_21_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_21_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_22_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_22_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_23_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_23_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_24_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_24_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_25_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_25_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_26_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_26_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_27_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_27_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_28_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_28_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_34_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_34_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_35_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_35_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_37_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_36_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_38_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_36_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_38_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_65_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_37_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_66_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_66_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_65_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_67_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_67_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_68_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_68_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_69_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_69_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_70_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_71_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_70_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_71_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_72_Boss.h": {
+			"sdcard": false
+		},
+		"/src/images/background/boss/Tile_72_Boss.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/CornerFillLL.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/CornerFillLL.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/CornerFillLR.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/CornerFillLR.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/CornerFillTL.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/CornerFillTL.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/CornerFillTR.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/CornerFillTR.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_21.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_21.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_22.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_22.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_23.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_23.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_25.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_25.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_26.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_26.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_24.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_24.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_27.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_27.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_28.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_34.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_35.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_28.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_35.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_34.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_36.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_37.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_38.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_36.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_37.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_38.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_65.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_66.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_65.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_67.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_66.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_67.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_68.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_69.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_68.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_69.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_70.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_71.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_72.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_71.h": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_70.png": {
+			"sdcard": false
+		},
+		"/src/images/background/orig/Tile_72.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_01_F0.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_01_F0.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_01_F1.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_01_F1.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_03_F0.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_03_F0.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_03_F1.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_03_F1.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_05_F0.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_05_F0.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_05_F1.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_05_F1.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_07_F0.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_07_F0.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_07_F1.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_07_F1.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_01_F0.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_01_F0.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_01_F1.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_01_F1.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_01_F2.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_01_F2.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_01_F3.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_01_F4.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_01_F3.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_01_F4.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_01_F5.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_01_F5.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_01_F6.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_01_F6.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_03_F0.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_03_F1.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_03_F1.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_03_F0.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_03_F2.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_03_F2.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_03_F3.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_03_F4.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_03_F3.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_03_F4.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_03_F5.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_03_F6.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_03_F6.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_03_F5.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_05_F0.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_05_F0.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_05_F1.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_05_F1.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_05_F2.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_05_F2.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_05_F3.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_05_F3.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_05_F4.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_05_F5.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_05_F4.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_05_F5.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_05_F6.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_05_F6.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_07_F0.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_07_F0.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_07_F1.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_07_F1.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_07_F2.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_07_F2.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_07_F3.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_07_F3.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_07_F4.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_07_F4.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_07_F5.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_07_F6.h": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_07_F5.png": {
+			"sdcard": false
+		},
+		"/src/images/enemies/cyclop/Cyclop_Hitting_07_F6.png": {
+			"sdcard": false
+		},
+		"/DarkRitual_Pokitto.bin": {
+			"sdcard": false
+		},
+		"/README.md": {
+			"sdcard": false
+		},
+		"/DarkRitual_V101.bin": {
+			"sdcard": false
+		},
+		"/distributable/DarkRitual_V101.bin": {
+			"sdcard": false
+		},
+		"/distributable/DarkRitual_V101.pop": {
+			"sdcard": false
+		},
+		"/distributable/Archive.zip": {
+			"sdcard": false
+		},
+		"/distributable/DarkRitual_V101.zip": {
+			"sdcard": false
 		}
 	},
 	"BUILDFlags": {
