@@ -175,6 +175,10 @@
 #define LAUNCH_CYCLOPS_DELAY_MAX        120
 
 
+#define BULLET_FIREBALL_FRAMES          40
+#define BULLET_ICESPELL_FRAMES          40
+#define BULLET_GREENRED_FRAMES          40
+
 
 // Web bullet travel details ..
 

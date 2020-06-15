@@ -721,8 +721,6 @@ void Game::playerMovement(GameMode gameMode) {
         const int32_t xOffsets[8] = { 0, 2, 2, 2, 0, -2, -2, -2 };
         const int32_t yOffsets[8] = { -6, -6, 0, 6, 6, 6, 0, -2 };
 
-        //sound.tone(NOTE_F2H,50);
-
 
         switch (this->player.getWeapon()) {
 
@@ -733,7 +731,7 @@ void Game::playerMovement(GameMode gameMode) {
                     if (inactiveBulletIdx != NO_INACTIVE_BULLET_FOUND) {
 
                         Bullet &bullet = this->bullets.getPlayerBullet(inactiveBulletIdx);
-                        bullet.setBullet(x + xOffsets[static_cast<uint8_t>(direction)], y + yOffsets[static_cast<uint8_t>(direction)], direction, this->player.getWeapon(), 0);
+                        bullet.setBullet(x + xOffsets[static_cast<uint8_t>(direction)], y + yOffsets[static_cast<uint8_t>(direction)], direction, this->player.getWeapon(), BULLET_FIREBALL_FRAMES);
 
                     }
                 }
@@ -746,7 +744,7 @@ void Game::playerMovement(GameMode gameMode) {
                     if (inactiveBulletIdx != NO_INACTIVE_BULLET_FOUND) {
 
                         Bullet &bullet = this->bullets.getPlayerBullet(inactiveBulletIdx);
-                        bullet.setBullet(x + xOffsets[static_cast<uint8_t>(direction)], y + yOffsets[static_cast<uint8_t>(direction)], direction, this->player.getWeapon(), 0);
+                        bullet.setBullet(x + xOffsets[static_cast<uint8_t>(direction)], y + yOffsets[static_cast<uint8_t>(direction)], direction, this->player.getWeapon(), BULLET_ICESPELL_FRAMES);
 
                         uint8_t slot = this->player.getInventorySlot(this->player.getWeapon());
                         InventoryItem &inventoryItem = this->player.getInventoryItem(slot);
@@ -764,7 +762,7 @@ void Game::playerMovement(GameMode gameMode) {
                     if (inactiveBulletIdx != NO_INACTIVE_BULLET_FOUND) {
 
                         Bullet &bullet = this->bullets.getPlayerBullet(inactiveBulletIdx);
-                        bullet.setBullet(x + xOffsets[static_cast<uint8_t>(direction)], y + yOffsets[static_cast<uint8_t>(direction)], direction, this->player.getWeapon(), 0);
+                        bullet.setBullet(x + xOffsets[static_cast<uint8_t>(direction)], y + yOffsets[static_cast<uint8_t>(direction)], direction, this->player.getWeapon(), BULLET_GREENRED_FRAMES);
 
                         uint8_t slot = this->player.getInventorySlot(this->player.getWeapon());
                         InventoryItem &inventoryItem = this->player.getInventoryItem(slot);
@@ -1366,7 +1364,7 @@ void Game::spriteAI(MapInformation &map, Player &player, Sprite &sprite) {
         case Object::Eye:     
 
             spriteAI_UpdateFrame(sprite, 4, 2);
-            spriteAI_CheckForMove(map, player, sprite, location, 7);
+            spriteAI_CheckForMove(map, player, sprite, location, 10);
             break;
 
         case Object::Snake:
@@ -1375,7 +1373,7 @@ void Game::spriteAI(MapInformation &map, Player &player, Sprite &sprite) {
         case Object::Skeleton: 
 
             spriteAI_UpdateFrame(sprite, 4, 2);
-            spriteAI_CheckForMove(map, player, sprite, location, 7);
+            spriteAI_CheckForMove(map, player, sprite, location, 10);
             break;
 
 
@@ -1383,7 +1381,7 @@ void Game::spriteAI(MapInformation &map, Player &player, Sprite &sprite) {
             {
     
                 spriteAI_UpdateFrame(sprite, 4, 2);
-                Direction direction = spriteAI_CheckForMove(map, player, sprite, location, 7);
+                Direction direction = spriteAI_CheckForMove(map, player, sprite, location, 12);
 
                 if (direction != Direction::None && this->launchSpiderDelay == 0) {
 
@@ -1523,7 +1521,7 @@ void Game::spriteAI(MapInformation &map, Player &player, Sprite &sprite) {
                     case 0 ... 100:
                         {
                             spriteAI_UpdateFrame(sprite, 4, 2);
-                            Direction direction = spriteAI_CheckForMove(map, player, sprite, location, 7);
+                            Direction direction = spriteAI_CheckForMove(map, player, sprite, location, 12);
 
                             if (direction != Direction::None && this->launchSkeletonDelay == 0) {
 
@@ -1554,7 +1552,7 @@ void Game::spriteAI(MapInformation &map, Player &player, Sprite &sprite) {
                 else {
 
                     spriteAI_UpdateFrame(sprite, 4, 2);
-                    Direction direction = spriteAI_CheckForMove(map, player, sprite, location, 7);
+                    Direction direction = spriteAI_CheckForMove(map, player, sprite, location, 10);
 
                     if (direction != Direction::None) {
 
@@ -1596,7 +1594,7 @@ void Game::spriteAI(MapInformation &map, Player &player, Sprite &sprite) {
                 else {
 
                     spriteAI_UpdateFrame(sprite ,4, 2);
-                    Direction direction = spriteAI_CheckForMove(map, player, sprite, location, 7);
+                    Direction direction = spriteAI_CheckForMove(map, player, sprite, location, 10);
 
                     if (direction != Direction::None) {
 
@@ -1613,7 +1611,7 @@ void Game::spriteAI(MapInformation &map, Player &player, Sprite &sprite) {
                             if (inactiveBulletIdx != NO_INACTIVE_BULLET_FOUND) {
 
                                 Bullet &bullet = this->bullets.getEnemyBullet(inactiveBulletIdx);
-                                bullet.setBullet(sprite.getX() + xOffsets[static_cast<uint8_t>(direction)], sprite.getY() + yOffsets[static_cast<uint8_t>(direction)], direction, Object::FireBall, 0);
+                                bullet.setBullet(sprite.getX() + xOffsets[static_cast<uint8_t>(direction)], sprite.getY() + yOffsets[static_cast<uint8_t>(direction)], direction, Object::FireBall, BULLET_FIREBALL_FRAMES);
                                 this->enemyBulletDelay = random(ENEMY_BULLET_DELAY_MIN, ENEMY_BULLET_DELAY_MAX);
 
                             }
@@ -1655,7 +1653,7 @@ void Game::spriteAI(MapInformation &map, Player &player, Sprite &sprite) {
                     case 0 ... 100:
                         {
                             spriteAI_UpdateFrame(sprite, 4, 2);
-                            Direction direction = spriteAI_CheckForMove(map, player, sprite, location, 7);
+                            Direction direction = spriteAI_CheckForMove(map, player, sprite, location, 15);
 
                             if (direction != Direction::None && this->launchCyclopsDelay == 0) {
 
@@ -1686,7 +1684,7 @@ void Game::spriteAI(MapInformation &map, Player &player, Sprite &sprite) {
                 else {
 
                     spriteAI_UpdateFrame(sprite, 4, 2);
-                    Direction direction = spriteAI_CheckForMove(map, player, sprite, location, 7);
+                    Direction direction = spriteAI_CheckForMove(map, player, sprite, location, 15);
 
                     if (direction != Direction::None) {
 
@@ -1703,7 +1701,7 @@ void Game::spriteAI(MapInformation &map, Player &player, Sprite &sprite) {
                             if (inactiveBulletIdx != NO_INACTIVE_BULLET_FOUND) {
 
                                 Bullet &bullet = this->bullets.getEnemyBullet(inactiveBulletIdx);
-                                bullet.setBullet(sprite.getX() + xOffsets[static_cast<uint8_t>(direction)], sprite.getY() + yOffsets[static_cast<uint8_t>(direction)], direction, Object::FireBall, 0);
+                                bullet.setBullet(sprite.getX() + xOffsets[static_cast<uint8_t>(direction)], sprite.getY() + yOffsets[static_cast<uint8_t>(direction)], direction, Object::FireBall, BULLET_FIREBALL_FRAMES);
                                 this->enemyBulletDelay = random(ENEMY_BULLET_DELAY_MIN, ENEMY_BULLET_DELAY_MAX);
 
                             }
