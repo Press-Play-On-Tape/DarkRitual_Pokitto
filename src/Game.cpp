@@ -15,9 +15,22 @@ void Game::setup(GameCookieHighScores *cookieHighScore, GameCookieSaveGame *cook
     map.setLevel(0);
 
     this->theme = SoundEffect::MainTheme;
-    if (mainThemeFile.openRO("music/darkrit1.raw")) {
-        auto& music = Audio::play<0>(mainThemeFile);
-        music.setLoop(true);
+
+    if (!this->cookieSaveGame->gameC) {
+            
+        if (mainThemeFile.openRO("music/darkrit1.raw")) {
+            auto& music = Audio::play<0>(mainThemeFile);
+            music.setLoop(true);
+        }
+
+    }
+    else {
+            
+        if (mainThemeFile.openRO("music/darkritE.raw")) {
+            auto& music = Audio::play<0>(mainThemeFile);
+            music.setLoop(true);
+        }
+
     }
 
 }
@@ -40,11 +53,26 @@ void Game::loop(void) {
         case GameState::Game_Init_Music:
             if (!this->map.isBossLevel()) {
                 if (this->theme != SoundEffect::MainTheme) {
+
                     this->theme = SoundEffect::MainTheme;
-                    if (mainThemeFile.openRO("music/darkrit1.raw")) {
-                        auto& music = Audio::play<0>(mainThemeFile);
-                        music.setLoop(true);
+
+                    if (!this->cookieSaveGame->gameC) {
+                            
+                        if (mainThemeFile.openRO("music/darkrit1.raw")) {
+                            auto& music = Audio::play<0>(mainThemeFile);
+                            music.setLoop(true);
+                        }
+
                     }
+                    else {
+                            
+                        if (mainThemeFile.openRO("music/darkritE.raw")) {
+                            auto& music = Audio::play<0>(mainThemeFile);
+                            music.setLoop(true);
+                        }
+
+                    }
+
                 }
             }
             else {

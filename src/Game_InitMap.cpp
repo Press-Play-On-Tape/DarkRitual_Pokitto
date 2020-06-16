@@ -477,6 +477,16 @@ void Game::nextLevelLoad(GameMode &gameMode) {
 
 void Game::removeTreasures() {
 
+    for (uint16_t i = 0; i < (this->map.getHeight() * this->map.getWidth()); i++) {
+
+        if (this->map.getBlock(i) >= MapTiles::SavePost) {
+
+            this->map.getBlock(i, MapTiles::Empty);
+
+        }
+
+    }
+    
     for (uint8_t i = 0; i < this->objects.getObjectNum(); i++) {
 
         auto &object = this->objects.getSprite(i);
