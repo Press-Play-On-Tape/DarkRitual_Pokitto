@@ -58,12 +58,12 @@ void Game::updateMainMenu() {
             if (PC::buttons.pressed(BTN_A)) {
 
                 if (this->titleScreenVars.option != TitleScreenOption::Start) {
-
                     updateMainMenuStartGame();
 
                 }
                 else {
 
+                    this->cookieSaveGame->gameC = (PC::buttons.pressed(BTN_C) || PC::buttons.repeat(BTN_C, 1));
                     this->titleScreenVars.mode = TitleScreenMode::Introduction;
                     this->titleScreenVars.fadeCounter = 0;
                     this->titleScreenVars.yPos = 90;

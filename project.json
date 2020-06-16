@@ -1940,12 +1940,6 @@
 		"/src/images/background/Tile_46 copy.png": {
 			"sdcard": false
 		},
-		"/src/images/background/Tile_45.png": {
-			"sdcard": false
-		},
-		"/src/images/background/Tile_45 copy.png": {
-			"sdcard": false
-		},
 		"/src/images/background/Tile_47.png": {
 			"sdcard": false
 		},
@@ -1980,9 +1974,6 @@
 			"sdcard": false
 		},
 		"/src/images/background/RogueBoy_Pokitto_mockup4.h": {
-			"sdcard": false
-		},
-		"/src/images/background/Tile_45.h": {
 			"sdcard": false
 		},
 		"/src/images/background/Tile_48.h": {
@@ -3203,12 +3194,6 @@
 		"\\src\\images\\background\\Tile_44.h": {
 			"sdcard": false
 		},
-		"\\src\\images\\background\\Tile_45.h": {
-			"sdcard": false
-		},
-		"\\src\\images\\background\\Tile_45.png": {
-			"sdcard": false
-		},
 		"\\src\\images\\background\\Tile_46.png": {
 			"sdcard": false
 		},
@@ -4358,9 +4343,6 @@
 		"\\LevelEditor\\Textures\\Tile_44.png": {
 			"sdcard": false
 		},
-		"\\LevelEditor\\Textures\\Tile_45.png": {
-			"sdcard": false
-		},
 		"\\LevelEditor\\Textures\\Tile_46.png": {
 			"sdcard": false
 		},
@@ -4593,9 +4575,6 @@
 			"sdcard": false
 		},
 		"\\LevelEditor\\Textures\\Tile_44.h": {
-			"sdcard": false
-		},
-		"\\LevelEditor\\Textures\\Tile_45.h": {
 			"sdcard": false
 		},
 		"\\LevelEditor\\Textures\\Tile_46.h": {
@@ -6083,9 +6062,6 @@
 		"\\src\\images\\shop\\Shop_05.h": {
 			"sdcard": false
 		},
-		"\\src\\images\\shop\\Tile_78.png": {
-			"sdcard": false
-		},
 		"\\src\\images\\shop\\Tile_79.png": {
 			"sdcard": false
 		},
@@ -6107,9 +6083,6 @@
 		"\\src\\images\\background\\Tile_82.png": {
 			"sdcard": false
 		},
-		"\\src\\images\\background\\Tile_78.png": {
-			"sdcard": false
-		},
 		"\\src\\images\\background\\Tile_79.png": {
 			"sdcard": false
 		},
@@ -6120,9 +6093,6 @@
 			"sdcard": false
 		},
 		"\\src\\images\\background\\Tile_82.h": {
-			"sdcard": false
-		},
-		"\\src\\images\\background\\Tile_78.h": {
 			"sdcard": false
 		},
 		"\\src\\images\\background\\Tile_79.h": {
@@ -6282,12 +6252,6 @@
 			"sdcard": false
 		},
 		"/src/images/shop": {
-			"sdcard": false
-		},
-		"/src/images/background/Tile_78.h": {
-			"sdcard": false
-		},
-		"/src/images/background/Tile_78.png": {
 			"sdcard": false
 		},
 		"/src/images/background/Tile_79.h": {
@@ -13752,6 +13716,198 @@
 			"sdcard": false
 		},
 		"\\distributable\\DakrRitual_V101.zip": {
+			"sdcard": false
+		},
+		"\\src\\images\\background\\Tile_78.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\background\\Tile_45.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\background\\Tile_78.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\background\\Tile_45.h": {
+			"sdcard": false
+		},
+		"\\DarkRitual_V102.bin": {
+			"sdcard": false
+		},
+		"\\DarkRitual_V102_GameC.bin": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\New folder": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_04_F1.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_00_F0.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_00_F1.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_01_F0.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_01_F1.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_04_F0.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_04_Alt_F1 (1).png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_04_Alt_F1 (2).png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_04_Alt_F1 (3).png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_04_Alt_F1 (4).png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_04_Alt_F1 (5).png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_04_Alt_F1 (6).png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_00_Alt_F0.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_00_Alt_F1.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_01_Alt_F0.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_01_Alt_F1.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_04_Alt_F0.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\Alt\\Player_04_Alt_F1.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\normal": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_00_F0.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_00_F1.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_01_F0.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_04_F0.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_00_F0.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_04_F1.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_00_F1.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_01_F0.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_01_F1.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_04_F0.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\normal\\Player_01_F0.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\normal\\Player_01_F1.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\normal\\Player_04_F0.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\normal\\Player_04_F1.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\normal\\Player_00_F0.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\normal\\Player_00_F1.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\normal\\Player_01_F1.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\normal\\Player_00_F0.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\normal\\Player_00_F1.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\normal\\Player_01_F0.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\normal\\Player_04_F0.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\normal\\Player_04_F1.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_00_Alt_F0.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_00_Alt_F1.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_01_Alt_F0.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_01_Alt_F1.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_04_Alt_F0.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_04_Alt_F1.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_00_Alt_F0.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_00_Alt_F1.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_01_Alt_F0.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_04_Alt_F0.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_01_Alt_F1.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\players\\alternate\\Player_04_Alt_F1.h": {
+			"sdcard": false
+		},
+		"\\DarkRitual_V103_GameC.bin": {
+			"sdcard": false
+		},
+		"\\DarkRitual_V104_GameC.bin": {
 			"sdcard": false
 		}
 	},

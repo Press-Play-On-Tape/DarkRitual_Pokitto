@@ -142,6 +142,7 @@ class Game {
         void drawPlayer(int16_t x, uint8_t y);
         void renderMessageBox();
         void renderLevelSplash();
+        void removeTreasures();
 
         #ifdef DEBUG
         void clearCells();

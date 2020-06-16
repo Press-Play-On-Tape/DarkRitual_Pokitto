@@ -363,7 +363,16 @@ void Game::renderPlayer(int8_t damageOffsetX, int8_t damageOffsetY) {
             
         if (!player.getMoving()) {
 
-            PD::drawBitmap(CENTERX - 6 - damageOffsetX, CENTERY - 6 - damageOffsetY, Images::Players[static_cast<uint8_t>(player.getDirection()) * 2 + player.getFrame()]);
+            if (!this->cookieSaveGame->gameC) {
+
+                PD::drawBitmap(CENTERX - 6 - damageOffsetX, CENTERY - 6 - damageOffsetY, Images::Players_Normal[static_cast<uint8_t>(player.getDirection()) * 2 + player.getFrame()]);
+
+            }
+            else {
+
+                PD::drawBitmap(CENTERX - 6 - damageOffsetX, CENTERY - 6 - damageOffsetY, Images::Players_Alt[static_cast<uint8_t>(player.getDirection()) * 2 + player.getFrame()]);
+
+            }
 
         }
         else {
@@ -372,7 +381,16 @@ void Game::renderPlayer(int8_t damageOffsetX, int8_t damageOffsetY) {
                 player.incFrame();
             }
 
-            PD::drawBitmap(CENTERX - 6 - damageOffsetX, CENTERY - 6 - damageOffsetY, Images::Players[static_cast<uint8_t>(player.getDirection()) * 2 + player.getFrame()]);
+            if (!this->cookieSaveGame->gameC) {
+
+                PD::drawBitmap(CENTERX - 6 - damageOffsetX, CENTERY - 6 - damageOffsetY, Images::Players_Normal[static_cast<uint8_t>(player.getDirection()) * 2 + player.getFrame()]);
+
+            }
+            else {
+
+                PD::drawBitmap(CENTERX - 6 - damageOffsetX, CENTERY - 6 - damageOffsetY, Images::Players_Alt[static_cast<uint8_t>(player.getDirection()) * 2 + player.getFrame()]);
+
+            }
 
         }
 
