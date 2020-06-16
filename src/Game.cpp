@@ -14,24 +14,7 @@ void Game::setup(GameCookieHighScores *cookieHighScore, GameCookieSaveGame *cook
 
     map.setLevel(0);
 
-    this->theme = SoundEffect::MainTheme;
-
-    if (!this->cookieSaveGame->gameC) {
-            
-        if (mainThemeFile.openRO("music/darkrit1.raw")) {
-            auto& music = Audio::play<0>(mainThemeFile);
-            music.setLoop(true);
-        }
-
-    }
-    else {
-            
-        if (mainThemeFile.openRO("music/darkritE.raw")) {
-            auto& music = Audio::play<0>(mainThemeFile);
-            music.setLoop(true);
-        }
-
-    }
+    this->playTheme(SoundTheme::Main);
 
 }
 
@@ -51,38 +34,12 @@ void Game::loop(void) {
             break;
 
         case GameState::Game_Init_Music:
+
             if (!this->map.isBossLevel()) {
-                if (this->theme != SoundEffect::MainTheme) {
-
-                    this->theme = SoundEffect::MainTheme;
-
-                    if (!this->cookieSaveGame->gameC) {
-                            
-                        if (mainThemeFile.openRO("music/darkrit1.raw")) {
-                            auto& music = Audio::play<0>(mainThemeFile);
-                            music.setLoop(true);
-                        }
-
-                    }
-                    else {
-                            
-                        if (mainThemeFile.openRO("music/darkritE.raw")) {
-                            auto& music = Audio::play<0>(mainThemeFile);
-                            music.setLoop(true);
-                        }
-
-                    }
-
-                }
+                this->playTheme(SoundTheme::Main);
             }
             else {
-                if (this->theme != SoundEffect::BossTheme) {
-                    this->theme = SoundEffect::BossTheme;
-                    if (mainThemeFile.openRO("music/darkritC.raw")) {
-                        auto& music = Audio::play<0>(mainThemeFile);
-                        music.setLoop(true);
-                    }
-                }
+                this->playTheme(SoundTheme::Boss);
             } 
             gameState = GameState::Game;
             [[fallthrough]];
@@ -120,13 +77,7 @@ void Game::loop(void) {
             break;
 
         case GameState::Shop_Init_Music:  
-            if (this->theme != SoundEffect::ShopTheme) {
-                this->theme = SoundEffect::ShopTheme;
-                if (mainThemeFile.openRO("music/darkritA.raw")) {
-                    auto& music = Audio::play<0>(mainThemeFile);
-                    music.setLoop(true);
-                }  
-            }
+            this->playTheme(SoundTheme::Shop);
             gameState = GameState::Shop;
             [[fallthrough]];
 

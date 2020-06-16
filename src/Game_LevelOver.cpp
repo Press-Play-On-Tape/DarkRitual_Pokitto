@@ -35,12 +35,7 @@ void Game::win_Init() {
 
     // Start win theme ..
 
-    this->theme = SoundEffect::Win;
-
-    if (mainThemeFile.openRO("music/darkritD.raw")) {
-        auto& music = Audio::play<0>(mainThemeFile);
-        music.setLoop(true);
-    }
+    this->playTheme(SoundTheme::EOG);
 
 }
 

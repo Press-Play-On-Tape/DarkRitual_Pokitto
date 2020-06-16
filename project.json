@@ -13909,6 +13909,33 @@
 		},
 		"\\DarkRitual_V104_GameC.bin": {
 			"sdcard": false
+		},
+		"\\src\\DR_Hell.mp3": {
+			"sdcard": false
+		},
+		"\\src\\darkritE - Hell.raw": {
+			"sdcard": false
+		},
+		"\\src\\sounds\\DR_Hell.mp3": {
+			"sdcard": false
+		},
+		"\\src\\sounds\\darkritE - Hell.raw": {
+			"sdcard": false
+		},
+		"\\distributable\\music\\darkritE - Hell.raw": {
+			"sdcard": false
+		},
+		"\\distributable\\music\\darkritE.raw": {
+			"sdcard": false
+		},
+		"\\distributable\\DarkRitual_V104_GameC.bin": {
+			"sdcard": false
+		},
+		"\\distributable\\DarkRitual_V104_GameC.pop": {
+			"sdcard": false
+		},
+		"\\distributable\\DarkRitual_V104_GameC.zip": {
+			"sdcard": false
 		}
 	},
 	"BUILDFlags": {

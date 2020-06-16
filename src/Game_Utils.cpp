@@ -163,6 +163,25 @@ void Game::playSoundEffect(SoundEffect soundEffect) {
 
 }
 
+void Game::playTheme(SoundTheme theme) {
+
+    char sounds[8][19] = { "music/darkrit1.raw", "music/darkritE.raw", "music/darkritA.raw", "music/darkritA.raw", "music/darkritC.raw", "music/darkritC.raw", "music/darkritD.raw", "music/darkritD.raw" };
+
+    SoundTheme themeToPlay = static_cast<SoundTheme>((static_cast<uint8_t>(theme) * 2) + (this->cookieSaveGame->gameC ? 1 : 0));
+
+    if (this->theme != themeToPlay) {
+
+        if (mainThemeFile.openRO(sounds[static_cast<uint8_t>(themeToPlay)])) {
+            auto& music = Audio::play<0>(mainThemeFile);
+            music.setLoop(true);
+        }
+
+    }
+
+    this->theme = themeToPlay;
+
+}
+
 void Game::drawPlayer(int16_t x, uint8_t y) {
 
     PD::drawBitmap(x, y, Images::Player);
