@@ -8,35 +8,23 @@ using PD = Pokitto::Display;
 
 void Game::win_Init() {
 
-    this->winScreenVars.runeEOG[0].direction = Direction::Left;
-    this->winScreenVars.runeEOG[0].delay = 10;
-    this->winScreenVars.runeEOG[0].index = 0;
-    this->winScreenVars.runeEOG[0].x = 46;
+    const uint8_t delay[] = { 10, 25, 45, 65, 80, 105 };
 
-    this->winScreenVars.runeEOG[1].direction = Direction::Right;
-    this->winScreenVars.runeEOG[1].delay = 25;
-    this->winScreenVars.runeEOG[1].index = 0;
-    this->winScreenVars.runeEOG[1].x = 38;
+    for (uint8_t i = 0; i < 6; i++) {
 
-    this->winScreenVars.runeEOG[2].direction = Direction::Left;
-    this->winScreenVars.runeEOG[2].delay = 45;
-    this->winScreenVars.runeEOG[2].index = 0;
-    this->winScreenVars.runeEOG[2].x = 46;
+        this->winScreenVars.runeEOG[i].delay = delay[i];
+        this->winScreenVars.runeEOG[i].index = 0;
 
-    this->winScreenVars.runeEOG[3].direction = Direction::Right;
-    this->winScreenVars.runeEOG[3].delay = 65;
-    this->winScreenVars.runeEOG[3].index = 0;
-    this->winScreenVars.runeEOG[3].x = 38;
+        if (i % 2 == 0) {
+            this->winScreenVars.runeEOG[i].x = 46;
+            this->winScreenVars.runeEOG[i].direction = Direction::Left;
+        }
+        else {
+            this->winScreenVars.runeEOG[i].x = 38;
+            this->winScreenVars.runeEOG[i].direction = Direction::Right;
+        }
 
-    this->winScreenVars.runeEOG[4].direction = Direction::Left;
-    this->winScreenVars.runeEOG[4].delay = 80;
-    this->winScreenVars.runeEOG[4].index = 0;
-    this->winScreenVars.runeEOG[4].x = 46;
-
-    this->winScreenVars.runeEOG[5].direction = Direction::Right;
-    this->winScreenVars.runeEOG[5].delay = 105;
-    this->winScreenVars.runeEOG[5].index = 0;
-    this->winScreenVars.runeEOG[5].x = 38;
+    }
 
     this->winScreenVars.counter = 235;
     this->winScreenVars.yPos = 90;

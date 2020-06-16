@@ -14,6 +14,8 @@ class GameCookieSaveGame : public Pokitto::Cookie {
         PlayerStatus playerStatus;
         uint8_t levelNo = 0;
         uint8_t definedMapLevel = 0;
+        bool gameC = false;
+        
 
 	public:
 

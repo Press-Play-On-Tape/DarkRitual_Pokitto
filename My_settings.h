@@ -63,7 +63,7 @@
 #define WALK_SLOW_FRAME_COUNT           3
 
 #define PLAYER_BULLET_MAX               6
-#define ENEMY_BULLET_MAX                6
+#define ENEMY_BULLET_MAX                10
 #define BOSS_BULLET_MAX                 8
 
 
@@ -161,7 +161,7 @@
 
 #define TIMER_STEP                      24
 #define LEVEL_START_DELAY               60
-#define COOKIE_INITIALISED              26
+#define COOKIE_INITIALISED              27
 #define SHOP_PURCHASE_DELAY             48
 
 #define ENEMY_BULLET_DELAY_MIN          20
@@ -175,9 +175,9 @@
 #define LAUNCH_CYCLOPS_DELAY_MAX        120
 
 
-#define BULLET_FIREBALL_FRAMES          40
-#define BULLET_ICESPELL_FRAMES          40
-#define BULLET_GREENRED_FRAMES          40
+#define BULLET_FIREBALL_FRAMES          20
+#define BULLET_ICESPELL_FRAMES          20
+#define BULLET_GREENRED_FRAMES          20
 
 
 // Web bullet travel details ..
