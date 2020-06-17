@@ -14,7 +14,7 @@ void Game::setup(GameCookieHighScores *cookieHighScore, GameCookieSaveGame *cook
 
     map.setLevel(0);
 
-    this->playTheme(SoundTheme::Main);
+    this->playTheme(SoundTheme::Main, false);
 
 }
 
@@ -36,10 +36,10 @@ void Game::loop(void) {
         case GameState::Game_Init_Music:
 
             if (!this->map.isBossLevel()) {
-                this->playTheme(SoundTheme::Main);
+                this->playTheme(SoundTheme::Main, true);
             }
             else {
-                this->playTheme(SoundTheme::Boss);
+                this->playTheme(SoundTheme::Boss, true);
             } 
             gameState = GameState::Game;
             [[fallthrough]];
@@ -77,7 +77,7 @@ void Game::loop(void) {
             break;
 
         case GameState::Shop_Init_Music:  
-            this->playTheme(SoundTheme::Shop);
+            this->playTheme(SoundTheme::Shop, true);
             gameState = GameState::Shop;
             [[fallthrough]];
 

@@ -112,7 +112,7 @@ class Game {
         void mixAltarPieces();
         void highScoreOrNot(uint8_t pts);
         void playSoundEffect(SoundEffect soundEffect);
-        void playTheme(SoundTheme theme);
+        void playTheme(SoundTheme theme, bool playHellModeTrack);
 
         const uint8_t * getSegment(uint8_t segmentType, uint8_t segmentIndex);
         uint32_t printLevelSummary(uint8_t yOffset, uint16_t time);  // Returns points earnt in this level ..

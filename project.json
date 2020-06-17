@@ -13936,6 +13936,9 @@
 		},
 		"\\distributable\\DarkRitual_V104_GameC.zip": {
 			"sdcard": false
+		},
+		"\\DarkRitual_V105.bin": {
+			"sdcard": false
 		}
 	},
 	"BUILDFlags": {

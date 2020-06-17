@@ -35,7 +35,7 @@ void Game::win_Init() {
 
     // Start win theme ..
 
-    this->playTheme(SoundTheme::EOG);
+    this->playTheme(SoundTheme::EOG, true);
 
 }
 

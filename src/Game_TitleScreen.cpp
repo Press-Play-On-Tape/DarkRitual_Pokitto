@@ -67,7 +67,7 @@ void Game::updateMainMenu() {
                     this->titleScreenVars.mode = TitleScreenMode::Introduction;
                     this->titleScreenVars.fadeCounter = 0;
                     this->titleScreenVars.yPos = 90;
-                    this->playTheme(SoundTheme::Main);
+                    this->playTheme(SoundTheme::Main, true);
 
                 }
 

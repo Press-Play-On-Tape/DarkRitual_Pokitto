@@ -479,9 +479,9 @@ void Game::removeTreasures() {
 
     for (uint16_t i = 0; i < (this->map.getHeight() * this->map.getWidth()); i++) {
 
-        if (this->map.getBlock(i) >= MapTiles::SavePost) {
+        if (this->map.getBlock(i) == MapTiles::SavePost) {
 
-            this->map.getBlock(i, MapTiles::Empty);
+            this->map.setBlock(i, MapTiles::Empty);
 
         }
 
