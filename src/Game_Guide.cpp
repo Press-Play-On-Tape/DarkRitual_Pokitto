@@ -191,7 +191,7 @@ constexpr const char message14_05[] = "need them!";
 
 constexpr const char message15_01[] = "The cultists are all";
 constexpr const char message15_02[] = "counting on you to";
-constexpr const char message15_03[] = "free our souls. Go";
+constexpr const char message15_03[] = "free their souls. Go";
 constexpr const char message15_04[] = "forth and conquer";
 constexpr const char message15_05[] = "thise enemies!";
 

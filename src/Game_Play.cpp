@@ -203,7 +203,7 @@ void Game::updateObjects(bool ignorePlayerDamage) {
 
                             if (PC::frameCount % 4 == 0) { 
 
-                                player.decHealth(object_DamamgeOnPlayer[static_cast<uint8_t>(type)] * (this->cookieSaveGame->gameC ? 2 : 1) );
+                                player.decHealth(object_DamageOnPlayer[static_cast<uint8_t>(type)] + (this->cookieSaveGame->gameC ? object_DamageOnPlayer[static_cast<uint8_t>(type)] / 2 : 0) );
                                 playSoundEffect(SoundEffect::Death1);
 
                             }
@@ -394,7 +394,7 @@ void Game::updateObjects(bool ignorePlayerDamage) {
                                 this->shake = this->shake + 2;
                             }
 
-                            this->player.decHealth(DAMAGE_BULLET * (this->cookieSaveGame->gameC ? 2 : 1));
+                            this->player.decHealth(DAMAGE_BULLET + (this->cookieSaveGame->gameC ? DAMAGE_BULLET / 2 : 0));
                             playSoundEffect(SoundEffect::Death1);
                             bullet.setActive(false);
 
@@ -515,7 +515,7 @@ void Game::playerMovement_Up(Direction &direction, uint16_t &x, uint16_t &y, boo
         moving = true;
 
         if (walk == WalkType::Slow) {
-            player.decHealth(HEALTH_DEC_SPIDERS_WEB * (this->cookieSaveGame->gameC ? 2 : 1)); 
+            player.decHealth(HEALTH_DEC_SPIDERS_WEB + (this->cookieSaveGame->gameC ? HEALTH_DEC_SPIDERS_WEB / 2 : 0)); 
         }
 
     }
@@ -548,7 +548,7 @@ void Game::playerMovement_Down(Direction &direction, uint16_t &x, uint16_t &y, b
         moving = true;
 
         if (walk == WalkType::Slow) {
-            player.decHealth(HEALTH_DEC_SPIDERS_WEB * (this->cookieSaveGame->gameC ? 2 : 1)); 
+            player.decHealth(HEALTH_DEC_SPIDERS_WEB + (this->cookieSaveGame->gameC ? HEALTH_DEC_SPIDERS_WEB / 2 : 0)); 
         }
 
     }
@@ -581,7 +581,7 @@ void Game::playerMovement_Right(Direction &direction, uint16_t &x, uint16_t &y, 
         moving = true;
 
         if (walk == WalkType::Slow) {
-            player.decHealth(HEALTH_DEC_SPIDERS_WEB * (this->cookieSaveGame->gameC ? 2 : 1)); 
+            player.decHealth(HEALTH_DEC_SPIDERS_WEB + (this->cookieSaveGame->gameC ? HEALTH_DEC_SPIDERS_WEB / 2 : 0)); 
         }
 
     }
@@ -620,7 +620,7 @@ void Game::playerMovement_Left(Direction &direction, uint16_t &x, uint16_t &y, b
         moving = true;
 
         if (walk == WalkType::Slow) {
-            player.decHealth(HEALTH_DEC_SPIDERS_WEB * (this->cookieSaveGame->gameC ? 2 : 1)); 
+            player.decHealth(HEALTH_DEC_SPIDERS_WEB + (this->cookieSaveGame->gameC ? HEALTH_DEC_SPIDERS_WEB / 2 : 0)); 
         }
 
     }

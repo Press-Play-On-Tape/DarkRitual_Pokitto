@@ -44,8 +44,6 @@ void init() {
 
     
     // Kick off the random number generator ..
-    
-    srand(time(0));
 
     game.setup(&cookieHighScore, &cookieSaveGame);
 

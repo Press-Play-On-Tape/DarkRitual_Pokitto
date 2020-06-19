@@ -126,7 +126,7 @@ void Game::win() {
 
             this->winScreenVars.counter--;
             if (this->winScreenVars.counter == 0 || PC::buttons.pressed(BTN_A)) { 
-                this->winScreenVars.counter = 1150;
+                this->winScreenVars.counter = 1250;
                 this->winScreenVars.mode = WinScreenMode::ShowMessage;
             }
                 
@@ -175,13 +175,21 @@ void Game::win() {
             PD::setCursor(32, this->winScreenVars.yPos + 168);
             PD::print("Filmote"); 
 
-            if (this->winScreenVars.yPos < 30) {
+            if (this->winScreenVars.yPos < 0) {
                 PD::setCursor(17, this->winScreenVars.yPos + 177);
                 PD::print("Dreamer2345"); 
                 PD::setCursor(10, this->winScreenVars.yPos + 186);
                 PD::print("RafaeleSpindola"); 
-                PD::setCursor(10, this->winScreenVars.yPos + 195);
+                PD::setCursor(12, this->winScreenVars.yPos + 195);
                 PD::print("Tuxinator2009"); 
+                PD::setCursor(12, this->winScreenVars.yPos + 215);
+                PD::print("For a challenge"); 
+                PD::setCursor(9, this->winScreenVars.yPos + 224);
+                PD::print("press and hold 'C'"); 
+                PD::setCursor(12, this->winScreenVars.yPos + 233);
+                PD::print("when starting a"); 
+                PD::setCursor(28, this->winScreenVars.yPos + 242);
+                PD::print("new game."); 
             }
 
             PD::setColor(0, 0);
