@@ -13948,6 +13948,30 @@
 		},
 		"\\DarkRitual_V106_Altar.bin": {
 			"sdcard": false
+		},
+		"\\DarkRitual_Pokitto.bin.1.png": {
+			"sdcard": false
+		},
+		"\\Asterisk.png": {
+			"sdcard": false
+		},
+		"\\src\\Asterisk.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\Asterisk.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\scoreboard\\Asterisk.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\Asterisk.h": {
+			"sdcard": false
+		},
+		"\\DarkRitual_V107.bin": {
+			"sdcard": false
+		},
+		"\\DarkRitual_V108.bin": {
+			"sdcard": false
 		}
 	},
 	"BUILDFlags": {

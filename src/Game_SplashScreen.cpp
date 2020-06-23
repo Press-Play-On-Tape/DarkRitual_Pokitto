@@ -29,6 +29,8 @@ void Game::splashScreen() {
             this->gameState = GameState::MainMenu; 
             this->titleScreenVars.mode = TitleScreenMode::SelectOption;
 
+            if (this->cookieSaveGame->levelNo != 255) this->titleScreenVars.option = TitleScreenOption::Resume;
+
         }
 
     }

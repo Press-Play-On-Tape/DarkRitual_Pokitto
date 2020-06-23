@@ -1222,6 +1222,7 @@ bool Game::interactWithBlock(int x, int y, MapTiles block) {
             this->cookieSaveGame->updateStatus(map.getLevel(), map.getDefinedMapLevel(), this->playerStatus);
             this->cookieSaveGame->saveCookie();
             this->gameState = GameState::GameSaved;
+            this->titleScreenVars.option = TitleScreenOption::Resume;
             return false;
 
         case MapTiles::Altar00 ... MapTiles::Altar05:

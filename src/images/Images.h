@@ -22,6 +22,7 @@
 namespace Images {
 
     #include "Arrow.h"
+    #include "Asterisk.h"
     #include "Arrow_Dark.h"
     #include "Dreamer2345_Base.h"
     #include "Dreamer2345_Eye.h"
