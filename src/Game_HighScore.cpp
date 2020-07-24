@@ -79,6 +79,7 @@ void Game::highScore() {
 
         if (PC::buttons.pressed(BTN_A)) {
 
+            this->cookieHighScore->scoreHell[this->highScoreVariables.entryIdx] = this->cookieSaveGame->gameC;
             this->cookieHighScore->saveCookie();
             this->highScoreVariables.entryIdx = NO_HIGH_SCORE_EDIT;
 
@@ -140,6 +141,10 @@ void Game::highScore() {
 
             charPos = charPos + charWidth + 2;
             
+        }
+
+        if (this->cookieHighScore->scoreHell[y] == true) {
+            PD::drawBitmap(charPos, 32 + (y * 9), Images::Asterisk);
         }
 
         PD::setCursor(41, 31 + (y * 9));

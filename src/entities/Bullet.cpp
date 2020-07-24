@@ -126,13 +126,6 @@ void Bullet::update() {
             case Object::GreenSpell:
             case Object::RedSpell:
             case Object::MauveSpell:
-
-                this->frame++;
-                this->frame = this->frame % 4;
-                updatePosition();
-
-                break;
-
             case Object::Sparks: 
 
                 this->lifeCountdown--;

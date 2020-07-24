@@ -410,7 +410,6 @@ void Game::nextLevelLoad(GameMode &gameMode) {
 
                 case GameMode::Resume:
                     {
-
                         this->map.setLevel(this->cookieSaveGame->getLevel() - 1); 
                         this->map.setRandomLevel(false);
                         const uint8_t * levelToLoad = maps[this->cookieSaveGame->getDefinedMapLevel() - 1];
@@ -427,6 +426,7 @@ void Game::nextLevelLoad(GameMode &gameMode) {
         }
 
         this->mixAltarPieces();
+        if (this->cookieSaveGame->gameC) this->removeTreasures();
 
         gameState = GameState::Game_Init_Music;
         this->map.setLevel(map.getLevel() + 1); 
@@ -437,6 +437,7 @@ void Game::nextLevelLoad(GameMode &gameMode) {
 
         this->map.setBossLevel(false);
         this->map.setShopLevel(false);
+        this->map.setAltarLevel(false);
 
         for (uint8_t i = 0; i < this->objects.getObjectNum(); i++) {
 
@@ -470,6 +471,38 @@ void Game::nextLevelLoad(GameMode &gameMode) {
     } 
     else {
         gameState = GameState::WinState_Init;
+    }
+
+}
+
+void Game::removeTreasures() {
+
+    for (uint16_t i = 0; i < (this->map.getHeight() * this->map.getWidth()); i++) {
+
+        if (this->map.getBlock(i) == MapTiles::SavePost) {
+
+            this->map.setBlock(i, MapTiles::Empty);
+
+        }
+
+    }
+    
+    for (uint8_t i = 0; i < this->objects.getObjectNum(); i++) {
+
+        auto &object = this->objects.getSprite(i);
+
+        switch (object.getType()) {
+
+            case Object::Coin:
+            case Object::SackOCash:
+            case Object::Bread:
+            case Object::Chicken: 
+            case Object::Tonic:
+                object.setActive(SpriteStatus::Inactive);
+                break;
+
+        }
+
     }
 
 }

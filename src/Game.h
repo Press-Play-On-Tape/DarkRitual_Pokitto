@@ -112,6 +112,7 @@ class Game {
         void mixAltarPieces();
         void highScoreOrNot(uint8_t pts);
         void playSoundEffect(SoundEffect soundEffect);
+        void playTheme(SoundTheme theme, bool playHellModeTrack);
 
         const uint8_t * getSegment(uint8_t segmentType, uint8_t segmentIndex);
         uint32_t printLevelSummary(uint8_t yOffset, uint16_t time);  // Returns points earnt in this level ..
@@ -142,6 +143,7 @@ class Game {
         void drawPlayer(int16_t x, uint8_t y);
         void renderMessageBox();
         void renderLevelSplash();
+        void removeTreasures();
 
         #ifdef DEBUG
         void clearCells();
@@ -178,7 +180,7 @@ class Game {
         uint8_t guideTop = 0;
         Sprite *guide;
         uint32_t randomSeed = 255;
-        SoundEffect theme = SoundEffect::Damage;
+        SoundTheme theme = SoundTheme::Unknown;
 
         ShopVariables shopVariables;
         InventoryMenuVariables inventoryMenu;

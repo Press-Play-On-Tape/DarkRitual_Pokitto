@@ -13,6 +13,7 @@ class GameCookieHighScores : public Pokitto::Cookie {
         uint16_t score[5];
         uint8_t level[5];
 		char score_Char[5][3];
+        bool scoreHell[5];
 
 	public:
 
@@ -35,6 +36,7 @@ class GameCookieHighScores : public Pokitto::Cookie {
 				}
 
 				level[y] = 5 - y;
+				scoreHell[y] = false;
 
 			}
 

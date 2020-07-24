@@ -6,6 +6,18 @@ enum class SpriteStatus : uint8_t {
     Dying
 };
 
+enum class SoundTheme : uint8_t {
+    Main,
+    Hell,
+    Shop,
+    Shop_Hell,
+    Boss,
+    Boss_Hell,
+    EOG,
+    EOG_Hell,
+    Unknown
+};
+
 enum class SoundEffect : uint8_t {
     LeverPull,
     OpenChest,

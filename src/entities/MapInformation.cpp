@@ -425,7 +425,8 @@ WalkType MapInformation::isWalkable(uint16_t x, uint16_t y, Direction direction,
             switch (direction) {
                 
                 case Direction::Down:
-                    walk = WalkType::Stop;
+                    yMod = (y - widthHalf) % 16;
+                    walk = (yMod >= 8 ? WalkType::Normal : WalkType::Stop);
                     break;
 
                 case Direction::Up:
@@ -474,7 +475,8 @@ WalkType MapInformation::isWalkable(uint16_t x, uint16_t y, Direction direction,
                     break;
 
                 case Direction::Right:
-                    walk = WalkType::Stop;
+                    xMod = (x - widthHalf) % 16;
+                    walk = ((xMod >= 8) ? WalkType::Normal : WalkType::Stop);
                     break;
 
                 default:
@@ -491,7 +493,8 @@ WalkType MapInformation::isWalkable(uint16_t x, uint16_t y, Direction direction,
             switch (direction) {
 
                 case Direction::Left:
-                    walk = WalkType::Stop;
+                    xMod = (x - widthHalf) % 16;
+                    walk = ((xMod <= 8) ? WalkType::Normal : WalkType::Stop);
                     break;
 
                 case Direction::Right:
@@ -971,7 +974,8 @@ WalkType MapInformation::isWalkable(uint16_t x, uint16_t y, Direction direction,
                 switch (direction) {
                 
                     case Direction::Down:
-                        walk = WalkType::Stop;
+                        yMod = (y - widthHalf) % 16;
+                        walk = (yMod >= 8 ? WalkType::Normal : WalkType::Stop);
                         break;
                         
                     case Direction::Up:
@@ -1018,7 +1022,8 @@ WalkType MapInformation::isWalkable(uint16_t x, uint16_t y, Direction direction,
                         break;
 
                     case Direction::Right:
-                        walk = WalkType::Stop;
+                        xMod = (x - widthHalf) % 16;
+                        walk = ((xMod >= 8) ? WalkType::Normal : WalkType::Stop);
                         break;
                         
                     default:
@@ -1034,7 +1039,8 @@ WalkType MapInformation::isWalkable(uint16_t x, uint16_t y, Direction direction,
                 switch (direction) {
 
                     case Direction::Left:
-                        walk = WalkType::Stop;
+                        xMod = (x - widthHalf) % 16;
+                        walk = ((xMod <= 8) ? WalkType::Normal : WalkType::Stop);
                         break;
 
                     case Direction::Right:

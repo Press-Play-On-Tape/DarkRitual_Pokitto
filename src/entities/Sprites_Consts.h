@@ -148,7 +148,7 @@ const int8_t spriteOffsets[] = {
     -12, -12,  /* Cyclop */
 };
 
-const uint8_t object_DamamgeOnPlayer[] = {
+const uint8_t object_DamageOnPlayer[] = {
     0,                      /* Coin */
     0,                      /* SackOfCash */
     0,                      /* Bread */
