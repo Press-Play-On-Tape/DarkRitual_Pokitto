@@ -13975,6 +13975,21 @@
 		},
 		"\\DarkRitual_V109.bin": {
 			"sdcard": false
+		},
+		"\\DarkRitual.bin": {
+			"sdcard": false
+		},
+		"\\distributable\\DarkRitual.bin": {
+			"sdcard": false
+		},
+		"\\distributable\\DarkRitual.pop": {
+			"sdcard": false
+		},
+		"\\distributable\\music.zip~RFaa668a1.TMP": {
+			"sdcard": false
+		},
+		"\\distributable\\DarkRitual_V1.1.zip": {
+			"sdcard": false
 		}
 	},
 	"BUILDFlags": {
