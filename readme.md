@@ -4,9 +4,9 @@ Explore the dark underworld to find all the sacred runes.  Its your only way to 
 
 Graphics&nbsp;&nbsp;&nbsp;&nbsp;@Vampirics
 
-Code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@filmote
+Code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Filmote
 
-Music&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@raphaelespindola;&nbsp;and;&nbsp;@Vampirics
+Music&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@raphaelespindola and @Vampirics
 
 ### Installation Instructions
 
