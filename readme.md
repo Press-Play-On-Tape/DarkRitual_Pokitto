@@ -2,11 +2,11 @@
 
 Explore the dark underworld to find all the sacred runes.  Its your only way to save your fellow cultists and yourself .
 
-Graphics&nbsp;&nbsp;&nbsp;&nbsp;@vampirics
+Graphics&nbsp;&nbsp;&nbsp;&nbsp;@Vampirics
 
 Code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@filmote
 
-Music&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@raphaelespindola
+Music&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@raphaelespindola;&nbsp;and;&nbsp;@Vampirics
 
 ### Installation Instructions
 
